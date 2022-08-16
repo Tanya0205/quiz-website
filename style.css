@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Edu SA Beginner", cursive;
+  font-weight: 400;
+  font-size: x-large;
+}
+html {
+  font-size: 62%;
+}
+
+.wrap {
+  width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: rgb(73, 134, 188);
+}
+.inner {
+  width: 38vw;
+  height: auto;
+  background-color: rgb(213, 224, 234);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 1rem 1rem -0.1rem rgba(0, 0, 0, 0.4);
+}
+
+.great {
+  margin-top: 60px;
+}
+.prev {
+  width: 70px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.next {
+  width: 70px;
+  cursor: pointer;
+}
+.submit {
+  margin: auto;
+  width: 90px;
+  height: 45px;
+  background-color: rgb(38, 238, 118);
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  font-size: 300;
+  display: block;
+  color: white;
+  /* display: none; */
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: rgb(3, 183, 75);
+}
+
+/* h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+} */
+
+input {
+  cursor: pointer;
+  margin-right: 20px;
+}
+#showscore {
+  background-color: rgb(151, 150, 150);
+  margin-top: 3rem;
+  padding: 3rem 4rem;
+  width: 50vh;
+  text-align: center;
+  margin-left: 9rem;
+
+  height: 20vh;
+  box-shadow: 0 1rem 1rem -0.1rem rgba(0, 0, 0, 0.4);
+}
+.showscore {
+  display: none;
+}
+
+#showscore h3 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#showscore .btn {
+  margin: 2rem;
+  background-color: lightgreen;
+  color: black;
+  border: none;
+  width: 20vh;
+  height: 6vh;
+  cursor: pointer;
+}
+
+#showscore .btn:hover {
+  background-color: green;
+  color: yellow;
+}
